@@ -22,7 +22,7 @@ console.log(promise);
 
 // Q.2: What is the promise chaining
 let promise1 = new Promise(function (resolve, reject) {
-  setTimeout(() => resolve(1), 1chrom000);
+  setTimeout(() => resolve(1), 1);
 })
   .then(function (result) {
     console.log(result); // 1
