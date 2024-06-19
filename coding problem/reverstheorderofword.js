@@ -9,3 +9,4 @@ for (let i = 0; i < nw.length; i++) {
 }
 
 console.log(arr.reverse().join(''));
+
