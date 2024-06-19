@@ -13,3 +13,5 @@ function findMax(arr) {
 }
 
 console.log(findMax([1, 2, 3, 4, 5, 6, 77, 8, , 9]));
+
+// Time complexity :O(N)
