@@ -6,11 +6,11 @@
 // 1.2:Outer function’s variables
 // 1.3:Global variables
 function Welcome(name) {
-    var greetingInfo = function (message) {
-      console.log(message + " " + name);
-    };
-    return greetingInfo;
-  }
-  var myFunction = Welcome("John");
-  myFunction("Welcome "); //Output: Welcome John
-  myFunction("Hello Mr."); //output: Hello Mr.John
+  var greetingInfo = function (message) {
+    console.log(message + ' ' + name);
+  };
+  return greetingInfo;
+}
+var myFunction = Welcome('John');
+myFunction('Welcome '); //Output: Welcome John
+myFunction('Hello Mr.'); //output: Hello Mr.John
